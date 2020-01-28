@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding-top: 0;
+    padding-bottom: 5px;
+    border-bottom: none;
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 3.2em;
+    text-transform: uppercase;
+}
+h1, h2 {
+    padding: 0 10%;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+
+h1::before {
+    display: inline-block;
+    position: relative;
+    top: 20px;
+    content: "";
+    width: 80px;
+    height: 80px;
+    margin: -20px 20px 0 0;
+    background: url(http://www.csszengarden.com/214/enso.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    opacity: 0.6;
+}
+h1 {
+    display: block;
+    font-size: 4em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: url("https://fonts.google.com/specimen/Julius+Sans+One");
+    font-weight: lighter;
+}
+header {
+    height: 230px;
+    padding: 20px 0 70px 0;
+    background: #2d6360 50% 0 url(huntington.png) no-repeat;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-image: url(huntington.png);
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    text-align: center;
+}
+
+.summary  p, h3{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.preamble p, h3{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.explanation p, h3{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.participation p, h3{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.benefits p, h3{ 
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.requirements p, h3{
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+
+.participation, .benefits{
+    background-color: #468169cb;
+    background-image: url(bamboo.png);
+    color: #fff;
+}
+
+body {
+    color: #325050;
+    background: white;
+    font-family: 'Libre Baskerville', sans-serif;
+    font-size: 80%;
+    background-image: url(bamboo.png);
+}
+
+
+h2 {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    border-top: none;
+    color: rgba(255,255,255,0.6);
+    font-size: 2em;
+    font-style: italic;
+}
+
+p {
+    line-height: 2;
+    display: block;
+}
+
+h3 {
+    display: block;
+    font-size: 24px;
+    font-weight: lighter;
+    color: #2E484C;
+}
+.benifits{
+    background-color: rgba(138,188,159,0.5);
+}
+
+footer {
+    padding: 1%;
+    background: #134347;
+    text-align: center;
+    font-size: 40px;
+    display: block;
+}
+footer a{
+    color: #fff;
+}
+
+footer a.zen-github {
+    content: "g";
+}
+footer a.zen-accessibility{
+    content: "a";
+}
+footer a.zen-license{
+    content: "c";
+}
+footer a.zen-validate-css{
+    content: "3";
+}
+footer a.zen-validate-html{
+    content: "5";
+}
+a{
+    color: rgba(0, 0, 0, 0.856);
+}
+a:hover{
+    color: rgb(247, 219, 183);
+}
+
+.wrapper {
+    max-width: 100vw;
+  }
+
+
+  li {
+    font-weight: 100;
+    text-decoration: none;
+    width: 100%;
+  }
+
+.sidebar ul{
+    list-style-type: none;
+    border-bottom: #134347;
+}
+
+nav[role=navigation] > ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav[role=navigation] > ul {
+    padding-left: 0;
+}
+nav[role=navigation] > ul > li {
+    width: 50%;
+    padding-top: 2.2em;
+    padding-bottom: 2.2em;
+    text-align: center;
+    border-bottom: 0.1em lightgrey solid;
+}
+li {
+    list-style: none;
+    font-family: "Roboto", sans-serif;
+}
+.design-selection > h3 {
+    visibility: hidden;
+}
+.design-name {
+    color: black;
+}
+.designer-name {
+    color: grey;
+    font-family: "IBM Plex Mono", sans-serif;
+    font-size: 0.9em;
+}
+.design-archives > h3 {
+    visibility: hidden;
+}
+.design-archives {
+    color: light-grey;
+}
+.zenresources {
+    background-image: url('bamboo.png');
+    background-color: #6a9b80;
+}
+
+.zen-resources > h3 {
+    visibility: hidden;
+}
+.zenresources > ul > li {
+    color: rgb(24, 46, 31);
+}
+
+.zen-resources, .resources{
+    text-align: center;
+    background-color: #6a9b80be;
+    background-image: url(bamboo.png)
+}
+
+p[role = "contentinfo"]{
+    font-family: 'sans-serif';
+    font-size: 1.9em;
+    text-align: center;
+    background-color: #468169cb;
+    color: rgb(101, 102, 101)
+    
+}
+p[role = "contentinfo"] > a{
+    font-family: 'satisfy', 'sans-serif';
+    font-size: 1.9em;
+    color: #fff;
+}
